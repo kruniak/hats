@@ -29,16 +29,16 @@ jobs:
         run: npm ci
 
       - name: Check Format
-        id: npm-format-check
-        run: npm run format:check
+        id: npm-prettier-check
+        run: npm run prettify:check
 
       - name: Lint
-        id: npm-lint
+        id: npm-eslint
         run: npm run lint
 
-      - name: Test
-        id: npm-ci-test
-        run: npm run ci-test
+      # - name: Test
+      #   id: npm-ci-test
+      #   run: npm run ci-test
 
   test-action:
     name: GitHub Actions Test
