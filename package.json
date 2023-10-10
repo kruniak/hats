@@ -1,7 +1,7 @@
 {
-  "name": "your-node-project",
-  "version": "1.0.0",
-  "description": "Description of your Node.js project",
+  "name": "hats",
+  "version": "0.0.1",
+  "description": "node ts boilerplate",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
