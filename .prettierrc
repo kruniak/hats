@@ -9,6 +9,5 @@
   "bracketSpacing": true,
   "arrowParens": "avoid",
   "parser": "typescript",
-  "proseWrap": "always",
-  "endOfLine": "crlf"
+  "proseWrap": "always"
 }
